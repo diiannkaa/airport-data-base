@@ -1,0 +1,77 @@
+{
+  "airport_name": "Пулково",
+  "address": "Санкт-Петербург, Пулковское шоссе, д.41",
+  "passengers": [
+    {
+      "id": 1,
+      "name": "Васильев Алексей",
+      "age": 21,
+      "info": {
+        "email": "chort@mail.com",
+        "klass": "Эконом"
+      },
+      "airplanes_id": [
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Иван Иванов",
+      "age": 25,
+      "info": {
+        "email": "malysh98@mail.ru",
+        "klass": "Комфорт"
+      },
+      "airplanes_id": [
+        2,
+        3,
+        2
+      ]
+    }
+  ],
+  "airplanes": [
+    {
+      "id": 1,
+      "model": "Boeing 737",
+      "info": {
+        "year": 2009,
+        "company": "Turkish Airlines"
+      },
+      "passengers_id": [
+        1,
+        2
+      ],
+      "pilots_id": [
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "model": "SSJ-100",
+      "info": {
+        "year": 2020,
+        "company": "Аэрофлот"
+      },
+      "passengers_id": [
+        1,
+        2
+      ],
+      "pilots_id": [
+        1
+      ]
+    }
+  ],
+  "pilots": [
+    {
+      "id": 1,
+      "name": "Иванищева Соня",
+      "airplanes_id": [
+        2,
+        3,
+        2
+      ]
+    }
+  ]
+}
