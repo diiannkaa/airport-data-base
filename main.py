@@ -7,7 +7,7 @@ import utils.json_service as json_service
 def airport_database():
     db = json_service.get_database()
     while True:
-        print('\nВыберите категорию, с которой хотите работать')
+        print('\nС какой категорией вы хотите работать?')
         print('\t1. Пассажиры')
         print('\t2. Самолеты')
         print('\t3. Пилоты')
